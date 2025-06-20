@@ -94,3 +94,23 @@ Lastly to verify that noraml users can RDP into Client-1 we will use a script to
 <p>
 As you can see the Powershell script created a user with the username "bab.hubo" We were able to login to Client-1 with his credentials as a normal user. 
 </p>
+
+
+---
+
+## 🆕 2025 Local Lab Extension (Hyper-V)
+
+To reinforce my understanding of Active Directory, I created a local lab using Hyper-V, Windows Server, and a Windows 10 client VM.
+
+### Current Progress
+- ✅ Installed and promoted Windows Server to Domain Controller
+- ✅ Created the `tamishatech.local` forest
+- ✅ Joined Windows 10 VM to domain
+
+### Next Objectives
+- [ ] Build OU structure (`IT`, `HR`, `Finance`)
+- [ ] Add users and groups using PowerShell
+- [ ] Apply GPOs for password policy and screen lock
+- [ ] Document and export event logs
+
+> 🔍 This extension complements the original Azure-based lab to ensure I understand AD deployment in both local and cloud contexts.
